@@ -81,7 +81,7 @@ void createGraph(Graph*& gPtr) {
 
     cout << "Enter 0 for undirected or 1 for directed: ";
     cin  >> b;
-
+    
     delete gPtr;
     gPtr = new GraphMatrix(numV, static_cast<Graph::GType>(b));
 }
